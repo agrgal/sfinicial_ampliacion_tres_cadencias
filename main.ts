@@ -1,6 +1,7 @@
+led.enable(false)
 let estado = [0, 0, 0]
 let tiempo = 0
-let cadencia = [200, 300, 1000]
+let cadencia = [100, 3000, 5000]
 basic.forever(function () {
     tiempo = input.runningTime()
     for (let index = 0; index <= 2; index++) {
